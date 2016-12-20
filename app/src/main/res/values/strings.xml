@@ -1,3 +1,61 @@
 <resources>
     <string name="app_name">BoosterDemo</string>
+    <string name="logo">Logo</string>
+    <string name="welcome">Welcome!</string>
+    <string name="investor_types">Investor Types</string>
+    <string name="defensive">Defensive</string>
+    <string name="conservative">Conservative</string>
+    <string name="balanced">Balanced</string>
+    <string name="balanced_growth">Balanced Growth</string>
+    <string name="growth">Growth</string>
+    <string name="aggressive_growth">Aggressive Growth</string>
+    <string name="questionnaire">Questionnaire</string>
+    <string name="submit">Submit</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="introduction">Introduction</string>
+    <string name="chart">Chart</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="question1">When do you plan to make a significant lump sum withdrawal from your portfolio, for example, for the purchase of a first home or for retirement needs? (From age 65 at the earliest)</string>
+    <string name="question2">Which of the following questions best describes your thoughts about risks and returns?</string>
+    <string name="question3">Protecting my investment portfolio from a fall in value at any time is more important to me than achieving high returns?</string>
+    <string name="question4">Consider you have an investment balance of at least $20,000 or more. If after a short period of time (less than 1 year) your balance has dropped in value, which statement relects best how you would feel about this?</string>
+    <string name="question5">How often would you tend to worry about your investment returns?</string>
+    <string name="question1_option1">Within 2 years – you need a DEFENSIVE TYPE fund </string>
+    <string name="question1_option2">In 2 to 5 years – you need a CONSERVATIVE TYPE fund</string>
+    <string name="question1_option3">In 6 to 10 years – continue to next question</string>
+    <string name="question1_option4">In 11 to 20 years – continue to next question </string>
+    <string name="question1_option5">More than 20 years – continue to next question</string>
+
+    <string name="question2_option1">I want to minimise my risk and am therefore willing to accept low returns</string>
+    <string name="question2_option2">I am willing to take a moderate amount of risk to generate low to medium returns </string>
+    <string name="question2_option3">I am willing to take a reasonable amount of risk to provide a more medium return </string>
+    <string name="question2_option4">In order to receive higher returns, I am willing to take a relatively high amount of risk</string>
+    <string name="question2_option5">I want to maximise my returns and am willing to accept a high level of risk</string>
+
+    <string name="question3_option1">Strongly Agree</string>
+    <string name="question3_option2">Agree</string>
+    <string name="question3_option3">Neither agree or disagree</string>
+    <string name="question3_option4">Disagree</string>
+    <string name="question3_option5">Strongly Disagree </string>
+
+    <string name="question4_option1">I would be unhappy with any drop in value </string>
+    <string name="question4_option2">I would be OK with a drop in value of no more than 5%</string>
+    <string name="question4_option3">I would be OK with a drop in value of no more than 10%</string>
+    <string name="question4_option4">I would be OK with a drop in value of up to 15%</string>
+    <string name="question4_option5">I would be OK with a drop in value of up to 20% </string>
+
+    <string name="question5_option1">Daily</string>
+    <string name="question5_option2">Monthly</string>
+    <string name="question5_option3">Quarterly</string>
+    <string name="question5_option4">Annually</string>
+    <string name="question5_option5">Never or only occasionally over the longer term</string>
+    <string name="show">show</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="app_instruction">The application help you find out what type of investor you are. Use the menu to access the features.</string>
+    <string name="your_total_score_is">Your total score is</string>
+    <string name="result_investor_type">You are a %s investor.</string>
 </resources>

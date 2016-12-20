@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group_investor_types">
+        <item
+            android:id="@+id/opt_header_investor_types"
+            android:title="@string/investor_types"
+            android:checkable="false"
+            android:enabled="false" />
+        <item
+            android:id="@+id/opt_defensive"
+            android:title="@string/defensive" />
+        <item
+            android:id="@+id/opt_conservative"
+            android:title="@string/conservative" />
+        <item
+            android:id="@+id/opt_balanced"
+            android:title="@string/balanced" />
+        <item
+            android:id="@+id/opt_balanced_growth"
+            android:title="@string/balanced_growth" />
+        <item
+            android:id="@+id/opt_growth"
+            android:title="@string/growth" />
+        <item
+            android:id="@+id/opt_aggressive_growth"
+            android:title="@string/aggressive_growth" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group_questionnaire">
+        <item
+            android:id="@+id/opt_questionnaire"
+            android:title="@string/questionnaire" />
+        <item
+            android:id="@+id/opt_submit"
+            android:enabled="false"
+            android:title="@string/submit" />
+    </group>
+</menu>
