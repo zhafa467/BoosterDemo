@@ -52,7 +52,7 @@ public class SubmissionFragment extends Fragment {
             phone = etPhone.getText().toString();
 
         Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
-                "mail_to", "zhafa467@gmail.com", null));
+                "mailto", "me@example.com", null));
         emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Subject");
         emailIntent.putExtra(Intent.EXTRA_TEXT, "Name: " + name + "\nEmail" + email + "\nPhone:" + phone + "\nScore:" + score);
         startActivity(Intent.createChooser(emailIntent, "Send email..."));
